@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios Basicos em PHP</title>
+</head>
+<style>
+    main
+    {
+        background-color: rgb(221, 107, 221);
+        border-radius: 15px;
+        text-indent: 30px;
+        text-align: center;
+        width: 900px;
+        font-size: 19px;
+        color: white;
+        margin-left: 25%;
+    }
+    body 
+    {
+        background-color: rgb(84, 84, 202);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid #333;
+        /* background-image: url(https://images2.alphacoders.com/698/698137.jpg);
+        */
+    }
+
+
+</style>
+<body>
+    <!-- Exercicio 1 -->
+    <main>
+        <form method="get" action="exercicio1.php">
+            <h3> Digite um numero para descobrir se ele é par ou impar</h3>
+            <label for="nota1"> Primeiro Numero: </label>
+            <input type="number" name="num" id="nota1"/> <br> <br> 
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 2 -->
+    <main>
+        <form method="get" action="exercicio2.php">
+            <h3> Digite os valores de A e B</h3>
+            <label for="A"> A: </label>
+            <input type="number" name="num_a" id="num_a"/> <br> <br>
+
+            <label for="B"> B: </label>
+            <input type="number" name="num_b" id="num_b"/> <br> <br>  
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 3 -->
+    <main>
+        <form method="get" action="exercicio3.php">
+            <h3> Digite sua Idade</h3>
+            <input type="number" name="idd" id="idd" minlength="0"/> <br> <br>
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 4 -->
+    <main>
+        <form method="get" action="exercicio4.php">
+            <h3> Digite três numeros inteiros para saber o maior deles</h3>
+            <label for="numero"> Numero 1: </label>
+            <input type="number" name="num1" id="num1"/> <br> <br>
+
+            <label for="numero"> Numero 2: </label>
+            <input type="number" name="num2" id="num2"/> <br> <br> 
+
+            <label for="numero"> Numero 3: </label>
+            <input type="number" name="num3" id="num3"/> <br> <br> 
+
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 5 -->
+    <main>
+        <form method="get" action="exercicio5.php">
+            <h3> Digite um numero em metros</h3>
+            <input type="text" name="mts" id="mts"/> <br> <br>
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 6 -->
+    <main>
+        <form method="get" action="exercicio6.php">
+            <h3> Digite a medida do lado do quadrado </h3>
+            <input type="text" name="sqr" id="sqr"/> <br> <br>
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 7 -->
+    <main>
+        <form method="get" action="exercicio7.php">
+            <h3>Digite o valor do seu salário por hora e o número de horas trabalhadas no mês</h3>
+            <label for="numero"> Valor por hora: </label>
+            <input type="text" name="hr" id="hr"/> <br> <br>
+
+            <label for="numero"> Horas trabalhadas no mês</s>: </label>
+            <input type="text" name="hr_mes" id="hr_mes"/> <br> <br> 
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 8 -->
+    <main>
+        <form method="get" action="exercicio8.php">
+            <h3> Digite uma temperatura em graus Fahrenheit para ser transformada em graus Celsius <br> 
+                    (não utilize pontos ou simbolos) </h3>
+            <input type="number" name="fhr" id="fhr"/> <br> <br>
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+    <!-- Exercicio 9 -->
+    <main>
+        <form method="get" action="exercicio9.php">
+            <h3> Digite um numero para verificação</h3>
+            <input type="number" name="num4" id="num4"/> <br> <br>
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+     <!-- Exercicio 10 -->
+     <main>
+        <form method="get" action="exercicio10.php">
+            <h3> Digite o numero que deseja ver a tabuada</h3>
+            <input type="number" name="num5" id="num5"/> <br> <br>
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+      <!-- Exercicio 11 -->
+      <main>
+        <form method="get" action="exercicio11.php">
+            <h3> Digite um numero para ver o calculo fatorial do mesmo</h3>
+            <input type="text" name="num6" id="num6"/> <br> <br>
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+    <!-- Exercicio 12 -->
+    <main>
+        <form method="get" action="exercicio12.php">
+            <h3>Escolha sua operação e em seguida digite dois numeros de sua Escolha nos campos abaixo</h3>
+            <label for="numero"> Para adição (1) Para Subtração (2) Para Divisão (3) Para Multiplicação (4)</label> <br>
+            <input type="text" name="num7" id="num7"/ required min='4' max='1'> <br> <br>
+
+            <label for="numero"> Primeiro numero: </label>
+            <input type="text" name="num8" id="num8"/> <br> <br> 
+
+            <label for="numero"> Segundo numero: </label>
+            <input type="text" name="num9" id="num9"/> <br> <br> 
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+    <!-- Exercicio 13-->
+    <main>
+        <form method="get" action="exercicio13.php">
+            <h3>Digite sua Idade e seu Nome</h3>
+            <label for="idade"> Idade: </label>
+            <input type="number" name="idd13" id="idd13"/> <br> <br>
+
+            <label for="nome"> Nome: </s>: </label>
+            <input type="text" name="text" id="text"/> <br> <br> 
+            <input type="submit" value="enviar"/>
+        </form>
+    </main> 
+    <!-- Exercicio 14-->
+    <main>
+        <form method="get" action="exercicio14.php">
+            <h3>Digite dois números para realização de um cálculo</h3>
+            <label for="numero"> Primeiro numero: </label>
+            <input type="number" name="num10" id="num10"/> <br> <br>
+
+            <label for="numero"> Segundo numero: </s>: </label>
+            <input type="number" name="num11" id="num11"/> <br> <br> 
+            <input type="submit" value="enviar"/>
+        </form>
+    </main> 
+    <!-- Exercicio 15 -->
+    <main>
+        <form method="get" action="exercicio15.php">
+            <h3>Digite o valor de um produto</h3>
+            <input type="text" name="num12" id="num12"/> <br> <br>
+            <input type="submit" value="enviar"/>
+        </form>
+    </main>
+
+</body>
+</html>
